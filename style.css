@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header.hero {
+  background: linear-gradient(to right, #0078d4, #00b4ff);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  color: white;
+  padding: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  /*padding: 1rem;*/
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Replace .project-card with .work-card */
+.work-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #0078d4;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-card {
+    border-left: none;
+    border-top: 5px solid #0078d4;
+  }
+}
